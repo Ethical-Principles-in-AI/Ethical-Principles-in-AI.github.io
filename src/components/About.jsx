@@ -96,10 +96,12 @@ function About() {
           <div class="container text-center">
               <div class="row">
                 <div class="col">
-                  <img alt="" class="rounded" style={{'width': '100%'}} src={gary}/>
+                  <a href="https://gxwei.ca/">
+                    <img alt="" class="rounded" style={{'width': '100%'}} src={gary}/>
+                  </a>
                   <p></p>
                   <p style={{'text-align': 'center', 'font-weight': 'bold', 'font-size': '16pt'}}>Ethics in AI Podcast Lead</p>
-                  <p style={{'text-align': 'center', 'color': '#00a5b9', 'font-weight': 'bold'}}>Gary Wei</p>
+                  <a href="https://gxwei.ca/"><p style={{'text-align': 'center', 'color': '#00a5b9', 'font-weight': 'bold'}}>Gary Wei</p></a>
                   <p style={{'text-align': 'center'}}>Hi there! I'm Gary, studying in Engineering Science in the machine learning specialization. My interests lie in the implementation and leveraging of ML tech in real-world applications. </p>
                   <p style={{'text-align': 'center', "padding-bottom": '40px'}}>I'm heading up the podcast team because I think as the students who will be instrumental in furthering the development of AI in the modern world, we have a responsibility to make it accessible and supported by ethically sound principles. I joined EPAI (and you should too!) to help make that happen.</p>
                 </div>

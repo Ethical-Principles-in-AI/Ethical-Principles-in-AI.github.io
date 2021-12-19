@@ -24,7 +24,7 @@ function Joinus() {
                   <img alt="" class="rounded" style={{'width': '100%'}} src={logo}/>
               </div>
               <div class="col-8">
-                <h1 style={{'textAlign':'left'}}>Check out our latest podcast!</h1>
+                <h1 style={{'textAlign':'center'}}>Check out our latest podcast!</h1>
                 <p style={{'textAlign':'center'}}>"A Look at Deepfakes: Past, Present, and Future Possibilities"</p>
                 <NavLink to='/projects'><div class="text-center"><button style={{"margin-bottom":'30pt', width:"75%"}} type="button" class="btn btn-info">Click Here to Stream!</button></div></NavLink>
               </div>
