@@ -82,10 +82,10 @@ function About() {
               </div>
               <div class="row">
                 <div class="col-6">
-                <a href="https://chasemcdo.github.io/"><img alt="" class="rounded" style={{'width': '100%'}} src={chase}/></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://chasemcdo.github.io/"><img alt="" class="rounded" style={{'width': '100%'}} src={chase}/></a>
                   <p></p>
                   <p style={{'text-align': 'center', 'font-weight': 'bold', 'font-size': '16pt'}}>Web Developer</p>
-                  <a href="https://chasemcdo.github.io/"><p style={{'text-align': 'center', 'color': '#00a5b9', 'font-weight': 'bold'}}>Chase McDougall</p></a>
+                  <a target="_blank" rel="noopener noreferrer" href="https://chasemcdo.github.io/"><p style={{'text-align': 'center', 'color': '#00a5b9', 'font-weight': 'bold'}}>Chase McDougall</p></a>
                   <p style={{'text-align': 'center'}}>Howdy! I’m Chase, an EngSci 2T3 majoring in Machine Intelligence and dabbling in business and robotics. In addition to my academics, I enjoy playing on various Skule intramural teams, training in the gym, and spending time learning new software development frameworks and tools. </p>
                   <p style={{'text-align': 'center', "padding-bottom": '40px'}}>I joined EPAI as a way to learn more about the ethical implications of the field I am entering as I believe they are important to consider in the development of AI/ML applications. </p>
                 </div>
@@ -96,12 +96,12 @@ function About() {
           <div class="container text-center">
               <div class="row">
                 <div class="col">
-                  <a href="https://gxwei.ca/">
+                  <a target="_blank" rel="noopener noreferrer" href="https://gxwei.ca/">
                     <img alt="" class="rounded" style={{'width': '100%'}} src={gary}/>
                   </a>
                   <p></p>
                   <p style={{'text-align': 'center', 'font-weight': 'bold', 'font-size': '16pt'}}>Ethics in AI Podcast Lead</p>
-                  <a href="https://gxwei.ca/"><p style={{'text-align': 'center', 'color': '#00a5b9', 'font-weight': 'bold'}}>Gary Wei</p></a>
+                  <a target="_blank" rel="noopener noreferrer" href="https://gxwei.ca/"><p style={{'text-align': 'center', 'color': '#00a5b9', 'font-weight': 'bold'}}>Gary Wei</p></a>
                   <p style={{'text-align': 'center'}}>Hi there! I'm Gary, studying in Engineering Science in the machine learning specialization. My interests lie in the implementation and leveraging of ML tech in real-world applications. </p>
                   <p style={{'text-align': 'center', "padding-bottom": '40px'}}>I'm heading up the podcast team because I think as the students who will be instrumental in furthering the development of AI in the modern world, we have a responsibility to make it accessible and supported by ethically sound principles. I joined EPAI (and you should too!) to help make that happen.</p>
                 </div>

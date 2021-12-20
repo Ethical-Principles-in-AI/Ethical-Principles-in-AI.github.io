@@ -43,7 +43,7 @@ function Events() {
                                 <img alt="" class="rounded" style={{'width': '100%'}} src={club_fair}/>
                                 <NavLink to="/fair2021" style={{'textAlign': 'center', 'color': '#00a5b9'}}>Online Club Fair</NavLink>
                             </figure>
-                            <p>EPAI attended Skule's 2021 online club fair on Wednesday, Sept 8th, 2021 from 1-4 pm EST! To hear more from us, be sure to join our <a href="https://docs.google.com/forms/d/e/1FAIpQLScBhjIogOTjRyTTOWOi_RD3iX1rcsrCKX9mffZjoloQ8v6--w/viewform">mailing list</a>.</p>
+                            <p>EPAI attended Skule's 2021 online club fair on Wednesday, Sept 8th, 2021 from 1-4 pm EST! To hear more from us, be sure to join our <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLScBhjIogOTjRyTTOWOi_RD3iX1rcsrCKX9mffZjoloQ8v6--w/viewform">mailing list</a>.</p>
                             <NavLink to='/fair2021'><div class="text-center"><button style={{"margin-bottom":'30pt', width:"75%"}} type="button" class="btn btn-info">Skule Club Fair 2021 Details</button></div></NavLink>
                         </div>
                         <div class="col">

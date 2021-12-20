@@ -10,6 +10,7 @@ function Home() {
           <div class="container">
             <h1>UofT Ethical Principles in AI Team</h1>
           </div>
+          <hr/>
           <div>
             <img
               class="img-fluid rounded mb-4"

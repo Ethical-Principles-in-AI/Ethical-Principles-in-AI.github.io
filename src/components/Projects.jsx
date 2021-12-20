@@ -3,6 +3,8 @@ import anchor from "../images/anchor_logo.jpg";
 import rss from "../images/rss_logo.png";
 import mic from "../images/mic.png";
 import fac_rec from "../images/facial-recognition.png";
+import paper_reading from "../images/paper_reading.jpg";
+import { NavLink } from "react-router-dom";
 
 function Projects() {
   return (
@@ -20,7 +22,7 @@ function Projects() {
                 <div class="row">
                     <div class="col text-center">
                     <figure>
-                        <a href="https://rss.com/podcasts/epai-uoft/">
+                        <a target="_blank" rel="noopener noreferrer" href="https://rss.com/podcasts/epai-uoft/">
                             <img alt="RSS Podcast logo" style={{"width": "50%"}} src={rss}/>
                             <figcaption>Our RSS Page</figcaption>
                         </a>
@@ -28,7 +30,7 @@ function Projects() {
                     </div>
                     <div class="col text-center">
                     <figure>
-                        <a href="https://anchor.fm/epai2">
+                        <a target="_blank" rel="noopener noreferrer" href="https://anchor.fm/epai2">
                             <img alt="Anchor Podcast logo" class="rounded" style={{"width": "50%"}} src={anchor}/>
                             <figcaption style={{"text-align": "40px"}}>Our Anchor Page</figcaption>
                         </a>
@@ -39,15 +41,33 @@ function Projects() {
             <hr/>
             <p style={{color: "#FF6B48", "text-align": 'center', "font-size": 30}}><u>Sign up to be a Podcast Team Member</u></p>
             <p style={{"text-align": 'center', "font-size": 25}}>Deadline to join a project team: Thursday, Jan 20th, 2022</p>
-            <p style={{"text-align": 'center'}}>If you have any questions, please reach out to <a href="mailto:utoronto.epai@gmail.com">utoronto.epai@gmail.com</a></p>
-            <a href="https://forms.gle/CYLCfM4yVP81EmFK7"><div class="text-center"><button style={{width:"75%"}} type="button" class="btn btn-info">Info</button></div></a>
+            <p style={{"text-align": 'center'}}>If you have any questions, please reach out to <a target="_blank" rel="noopener noreferrer" href="mailto:utoronto.epai@gmail.com">utoronto.epai@gmail.com</a></p>
+            <a target="_blank" rel="noopener noreferrer" href="https://forms.gle/CYLCfM4yVP81EmFK7"><div class="text-center"><button style={{width:"75%"}} type="button" class="btn btn-info">Info</button></div></a>
             <hr/>
-
+            
+            <div class="container">
+                <div class="row">
+                    <div class="col-7">
+                        <p class="text-center" style={{color: "#FF6B48"}}>Paper Reading Group</p>
+                        <p>
+                            We meet bi-weekly during the semester to discuss academic papers in the field of Ethical AI. 
+                            Participation is open to all and guests are always welcome! 
+                            Meetings will be held in the EPAI discord voice channel paper-reading-meeting-room.
+                        </p>
+                    </div>
+                    <p></p>
+                    <div class="col text-center">
+                        <img class="rounded" alt="Facial Recognition Icon" style={{"width": "50%"}} src={paper_reading}/>
+                        <NavLink to="/ReadingGroup"><div><button style={{width:"50%"}} type="button" class="btn btn-info">Full Project Proposal</button></div></NavLink>
+                    </div>
+                </div>
+            </div>
+            <p></p>
             <div class="container">
                 <div class="row">
                     <div class="col text-center">
-                        <img alt="Podcast Icon" style={{"width": "50%"}} src={mic}/>
-                        <a href="https://docs.google.com/document/d/1aYXGIbq5tH7aoVb2tabqqidE9GFo7z-b2C6wTMmKPh8/edit?usp=sharing"><div><button style={{width:"50%"}} type="button" class="btn btn-info">Full Project Proposal</button></div></a>
+                        <img class="rounded" alt="Podcast Icon" style={{"width": "50%"}} src={mic}/>
+                        <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1aYXGIbq5tH7aoVb2tabqqidE9GFo7z-b2C6wTMmKPh8/edit?usp=sharing"><div><button style={{width:"50%"}} type="button" class="btn btn-info">Full Project Proposal</button></div></a>
                     </div>
                     <div class="col-7">
                         <p class="text-center" style={{color: "#FF6B48"}}>Ethics in AI Podcast</p>
@@ -72,8 +92,8 @@ function Projects() {
                     </div>
                     <p></p>
                     <div class="col text-center">
-                        <img  alt="Facial Recognition Icon" style={{"width": "50%"}} src={fac_rec}/>
-                        <a href="https://docs.google.com/document/d/1DQqjuvKkU0-y_HAT7XPFMFJ5hXj1Zx_q2xvnq7N_MSw/edit?usp=sharing"><div><button style={{width:"50%"}} type="button" class="btn btn-info">Full Project Proposal</button></div></a>
+                        <img class="rounded" alt="Facial Recognition Icon" style={{"width": "50%"}} src={fac_rec}/>
+                        <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1DQqjuvKkU0-y_HAT7XPFMFJ5hXj1Zx_q2xvnq7N_MSw/edit?usp=sharing"><div><button style={{width:"50%"}} type="button" class="btn btn-info">Full Project Proposal</button></div></a>
                     </div>
                 </div>
             </div>

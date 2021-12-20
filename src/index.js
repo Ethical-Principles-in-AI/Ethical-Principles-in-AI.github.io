@@ -17,6 +17,7 @@ import {
   Info2021,
   Panel2021,
   News,
+  ReadingGroup,
 } from "./components";
 
 ReactDOM.render(
@@ -35,6 +36,7 @@ ReactDOM.render(
       <Route path="/info2021" element={<Info2021 />} />
       <Route path="/panel2021" element={<Panel2021 />} />
       <Route path="/news" element={<News />} />
+      <Route path="/ReadingGroup" element={<ReadingGroup />} />
     </Routes>
     <Footer />
   </Router>,
