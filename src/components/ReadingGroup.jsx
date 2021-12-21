@@ -23,6 +23,7 @@ function ReadingGroup() {
         
         <p>If you have a paper request, please fill out this form:<br/><u><a target="_blank" rel="noopener noreferrer" href="https://forms.gle/rMGM34jVutt9NwqJ7">https://forms.gle/rMGM34jVutt9NwqJ7</a></u></p>
         
+        <p style={{'textAlign':'center'}}>Inspired by <u><a target="_blank" rel="noopener noreferrer" href="https://github.com/FORCOLAB-UofT/PaperReadingGroup/wiki">Professor Shurui Zhou's Paper Reading Group</a></u></p>
         </div>
       </div>
     </div>
