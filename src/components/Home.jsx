@@ -26,7 +26,7 @@ function Home() {
               Our club is committed to building a supportive community of students passionate about ethical principles in AI.
             </p>
             <p style={{"text-align": 'center', "font-weight": 'bold'}}>
-              We welcome all students from all backgrounds of knowledge and experience.
+              We welcome all students from all backgrounds of knowledge and experience
             </p>
             <p style={{color: "#3CB3C3", "font-weight": 'bold'}}>Why Join EPAI?</p>
             <p>
