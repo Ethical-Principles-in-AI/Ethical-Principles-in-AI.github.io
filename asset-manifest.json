@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.a667ae9a.chunk.css",
-    "main.js": "/static/js/main.2cc23781.chunk.js",
-    "main.js.map": "/static/js/main.2cc23781.chunk.js.map",
+    "main.js": "/static/js/main.4b4254a5.chunk.js",
+    "main.js.map": "/static/js/main.4b4254a5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.352374c8.js",
     "runtime-main.js.map": "/static/js/runtime-main.352374c8.js.map",
     "static/js/2.01f5d1aa.chunk.js": "/static/js/2.01f5d1aa.chunk.js",
     "static/js/2.01f5d1aa.chunk.js.map": "/static/js/2.01f5d1aa.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.91d85ad10370d862bd3efc01ebeee64b.js": "/precache-manifest.91d85ad10370d862bd3efc01ebeee64b.js",
+    "precache-manifest.f682f9c741f8c768a30af13b0dd6bab0.js": "/precache-manifest.f682f9c741f8c768a30af13b0dd6bab0.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.a667ae9a.chunk.css.map": "/static/css/main.a667ae9a.chunk.css.map",
     "static/js/2.01f5d1aa.chunk.js.LICENSE.txt": "/static/js/2.01f5d1aa.chunk.js.LICENSE.txt",
@@ -20,7 +20,6 @@
     "static/media/club_fair.png": "/static/media/club_fair.70cb0d7c.png",
     "static/media/dhruv.jpg": "/static/media/dhruv.3d8fea31.jpg",
     "static/media/dullerud_profile.jpeg": "/static/media/dullerud_profile.56a6d631.jpeg",
-    "static/media/email.jpg": "/static/media/email.17957a1e.jpg",
     "static/media/emily.jpg": "/static/media/emily.6a5d6ea3.jpg",
     "static/media/epai_banner.png": "/static/media/epai_banner.c05552f3.png",
     "static/media/epai_logo.png": "/static/media/epai_logo.9b75d292.png",
@@ -29,7 +28,7 @@
     "static/media/facial-recognition.png": "/static/media/facial-recognition.58783a75.png",
     "static/media/fizzah.png": "/static/media/fizzah.8c29842a.png",
     "static/media/gary.jpg": "/static/media/gary.27974500.jpg",
-    "static/media/instagram.jpg": "/static/media/instagram.54c129ef.jpg",
+    "static/media/instagram_logo.png": "/static/media/instagram_logo.34ada163.png",
     "static/media/jasmine.jpg": "/static/media/jasmine.3010a421.jpg",
     "static/media/jong.jpg": "/static/media/jong.9f5c0712.jpg",
     "static/media/mic.png": "/static/media/mic.e31413b5.png",
@@ -44,6 +43,6 @@
     "static/js/runtime-main.352374c8.js",
     "static/js/2.01f5d1aa.chunk.js",
     "static/css/main.a667ae9a.chunk.css",
-    "static/js/main.2cc23781.chunk.js"
+    "static/js/main.4b4254a5.chunk.js"
   ]
 }
