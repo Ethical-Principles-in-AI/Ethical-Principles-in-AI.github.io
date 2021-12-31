@@ -1,5 +1,5 @@
 import React from "react";
-import discord from "../images/discord.jpg";
+import discord from "../images/discord.png";
 // import facebook from "../images/facebook.png";
 import instagram from "../images/instagram_logo.png";
 import email from "../images/mail.png";

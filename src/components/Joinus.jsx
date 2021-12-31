@@ -4,7 +4,7 @@ import logo from "../images/epai_logo.png";
 import signup from "../images/signup.jpg";
 import email from "../images/email_green.png";
 import membership from "../images/membership.png";
-import discord from "../images/discord.jpg";
+import discord from "../images/discord.png";
 import instagram from "../images/instagram_logo.png";
 // import facebook from "../images/facebook.png";
 
