@@ -1,54 +1,30 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
-import logo from "../images/epai_logo.png"
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import Container from "react-bootstrap/Container";
+import logo from "../images/epai_logo.png";
 
 function Navigation() {
   return (
-    <div className="navigation fixed-top">
-      <nav className="navbar navbar-expand navbar-dark bg-dark">
-        <div className="container">
-          <NavLink className="navbar-brand" to="/">
-            <img alt="EPAI logo" style={{"width": "55px"}} src={logo}/>
-            &nbsp; UofT EPAI
-          </NavLink>
-          <div>
-            <ul className="navbar-nav ml-auto">
-              <li className="nav-item">
-                <NavLink style={{"white-space": 'nowrap'}} className="nav-link" to="/">
-                  Home
-                  <span className="sr-only">(current)</span>
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink style={{"white-space": 'nowrap'}} className="nav-link" to="/about">
-                  About Us
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink style={{"white-space": 'nowrap'}} className="nav-link" to="/events">
-                  Events
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink style={{"white-space": 'nowrap'}} className="nav-link" to="/projects">
-                  Projects
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink style={{"white-space": 'nowrap'}} className="nav-link" to="/news">
-                  Newsletter
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink style={{"white-space": 'nowrap'}} className="nav-link" to="/joinus">
-                  Join Us
-                </NavLink>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </div>
+    <Navbar bg="dark" variant="dark" fixed="top" expand="lg">
+    <Container>
+      <Navbar.Brand href="/">
+      <img alt="EPAI logo" style={{"width": "55px"}} src={logo}/>
+        &nbsp; UofT EPAI
+      </Navbar.Brand>
+      <Navbar.Toggle />
+      <Navbar.Collapse>
+        <Nav className="me-auto">
+          <Nav.Link href="/">Home</Nav.Link>
+          <Nav.Link href="/About">About</Nav.Link>
+          <Nav.Link href="/Events">Events</Nav.Link>
+          <Nav.Link href="/Projects">Projects</Nav.Link>
+          <Nav.Link href="/News">Newsletter</Nav.Link>
+          <Nav.Link href="/joinus">Join Us</Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 }
 
