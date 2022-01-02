@@ -39,7 +39,7 @@ function Projects() {
                 </div>
             </div>
             <hr/>
-            <p style={{color: "#FF6B48", "text-align": 'center', "font-size": 30}}><u>Sign up to be a Podcast Team Member</u></p>
+            <p style={{color: "#FF6B48", "text-align": 'center', "font-size": 30}}>Sign up to be a Podcast Team Member</p>
             <p style={{"text-align": 'center', "font-size": 25}}>Deadline to join a project team: Thursday, Jan 20th, 2022</p>
             <p style={{"text-align": 'center'}}>If you have any questions, please reach out to <a target="_blank" rel="noopener noreferrer" href="mailto:utoronto.epai@gmail.com">utoronto.epai@gmail.com</a></p>
             <a target="_blank" rel="noopener noreferrer" href="https://forms.gle/CYLCfM4yVP81EmFK7"><div class="text-center"><button style={{width:"75%"}} type="button" class="btn btn-info">Info</button></div></a>

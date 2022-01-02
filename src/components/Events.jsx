@@ -16,8 +16,8 @@ function Events() {
                     <hr/>
                     <p style={{'textAlign': 'center'}}>We live in an age of rapid technological development which has presented us with many benefits but also consequences. To help us better understand the ethical concerns that have arisen recently in the emerging fields of artificial intelligence, EPAI is holding monthly workshops that come in various formats. They can be a talk or presentation from a guest speaker,  an introduction to visualize ethical concerns with actual code and models, or opportunities to exchange and express ideas in the format of a debate.</p>
                     <p style={{'textAlign': 'center'}}>Stay tuned to our website and other social media accounts for updates!</p>
-                    <p style={{color: "#FF6B48", "text-align": 'center', "font-size": 25}}>Calendar</p>
-                    <iframe title="EPAI Calendar" src="https://calendar.google.com/calendar/embed?src=2rfpolkl557oqa9ma9dio74hos%40group.calendar.google.com&ctz=America%2FToronto" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+                    {/* <p style={{color: "#FF6B48", "text-align": 'center', "font-size": 25}}>Calendar</p>
+                    <iframe title="EPAI Calendar" src="https://calendar.google.com/calendar/embed?src=2rfpolkl557oqa9ma9dio74hos%40group.calendar.google.com&ctz=America%2FToronto" width="100%" height="600" frameborder="0" scrolling="no"></iframe> */}
                     <hr/>
                     <p style={{color: "#FF6B48", "text-align": 'center', "font-size": 25}}>Upcoming Events</p>
                     <p style={{'textAlign': 'center'}}>Upcoming events are scheduled for the winter semester, more information will be shared in 2022, see you there!</p>

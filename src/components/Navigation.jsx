@@ -1,8 +1,8 @@
 import React from "react";
-import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import logo from "../images/epai_logo.png";
+import { NavLink } from "react-router-dom";
 
 function Navigation() {
   return (
@@ -14,14 +14,41 @@ function Navigation() {
       </Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse>
-        <Nav className="me-auto">
-          <Nav.Link href="/">Home</Nav.Link>
-          <Nav.Link href="/About">About</Nav.Link>
-          <Nav.Link href="/Events">Events</Nav.Link>
-          <Nav.Link href="/Projects">Projects</Nav.Link>
-          <Nav.Link href="/News">Newsletter</Nav.Link>
-          <Nav.Link href="/joinus">Join Us</Nav.Link>
-        </Nav>
+        <div>
+            <ul className="navbar-nav ml-auto">
+              <li className="nav-item">
+                <NavLink style={{"white-space": 'nowrap'}} className="nav-link" to="/">
+                  Home
+                  <span className="sr-only">(current)</span>
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink style={{"white-space": 'nowrap'}} className="nav-link" to="/about">
+                  About Us
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink style={{"white-space": 'nowrap'}} className="nav-link" to="/events">
+                  Events
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink style={{"white-space": 'nowrap'}} className="nav-link" to="/projects">
+                  Projects
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink style={{"white-space": 'nowrap'}} className="nav-link" to="/news">
+                  Newsletter
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink style={{"white-space": 'nowrap'}} className="nav-link" to="/joinus">
+                  Join Us
+                </NavLink>
+              </li>
+            </ul>
+          </div>
       </Navbar.Collapse>
       </Container>
     </Navbar>
