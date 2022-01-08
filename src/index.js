@@ -18,12 +18,14 @@ import {
   Panel2021,
   News,
   ReadingGroup,
+  ScrollToTop,
 } from "./components";
 
 ReactDOM.render(
   <Router>
     <Navigation />
     <p style={{"padding-top": "50px"}}></p>
+    <ScrollToTop />
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />

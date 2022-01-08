@@ -33,7 +33,7 @@ function Home() {
               <ul>
                 <li>Learning about current <b>Hot Topics</b>. Ethics in AI has become a very popular area of research, both in academia and industry.</li>
                 <li>Having <b>Hands-On Impact</b> through project work by helping spread awareness and taking action on ethics in AI.</li>
-                <li>Having <b>Skill-Building</b> opportunities through EPAI initiatives. Every project, workshop, and newsletter aims to help you build skills that are marketable in the job industry.</li>
+                <li>Having <b>Skill Building</b> opportunities through EPAI initiatives. Every project, workshop, and newsletter aims to help you build skills that are marketable in the job industry.</li>
                 <li>Opportunities of <b>Networking</b> through EPAI. We invite guest speakers to our workshops and connect you with resources through our newsletters.</li>
                 <li><b>Leadership Development</b> as an executive or project lead.</li>
               </ul>

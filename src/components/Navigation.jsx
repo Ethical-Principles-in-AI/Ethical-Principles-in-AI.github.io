@@ -1,17 +1,20 @@
 import React from "react";
+import Navbar from "react-bootstrap/Navbar";
+import Container from "react-bootstrap/Container";
+import logo from "../images/epai_logo.png";
 import { NavLink } from "react-router-dom";
-import logo from "../images/epai_logo.png"
 
 function Navigation() {
   return (
-    <div className="navigation fixed-top">
-      <nav className="navbar navbar-expand navbar-dark bg-dark">
-        <div className="container">
-          <NavLink className="navbar-brand" to="/">
-            <img alt="EPAI logo" style={{"width": "55px"}} src={logo}/>
-            &nbsp; UofT EPAI
-          </NavLink>
-          <div>
+    <Navbar bg="dark" variant="dark" fixed="top" expand="lg">
+    <Container>
+      <Navbar.Brand href="/">
+      <img alt="EPAI logo" style={{"width": "55px"}} src={logo}/>
+        &nbsp; UofT EPAI
+      </Navbar.Brand>
+      <Navbar.Toggle />
+      <Navbar.Collapse>
+        <div>
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
                 <NavLink style={{"white-space": 'nowrap'}} className="nav-link" to="/">
@@ -46,9 +49,9 @@ function Navigation() {
               </li>
             </ul>
           </div>
-        </div>
-      </nav>
-    </div>
+      </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 }
 

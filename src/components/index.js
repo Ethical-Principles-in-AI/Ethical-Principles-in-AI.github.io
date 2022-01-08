@@ -12,3 +12,4 @@ export { default as Info2021 } from "./events/info2021";
 export { default as Panel2021 } from "./events/panel2021";
 export { default as News } from "./News";
 export { default as ReadingGroup } from "./ReadingGroup";
+export { default as ScrollToTop } from "./ScrollToTop";
