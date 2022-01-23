@@ -15,6 +15,7 @@ import {
   Dullerud,
   Fair2021,
   Info2021,
+  Info2022,
   Panel2021,
   News,
   ReadingGroup,
@@ -36,6 +37,7 @@ ReactDOM.render(
       <Route path="/dullerud" element={<Dullerud />} />
       <Route path="/fair2021" element={<Fair2021 />} />
       <Route path="/info2021" element={<Info2021 />} />
+      <Route path="/info2022" element={<Info2022 />} />
       <Route path="/panel2021" element={<Panel2021 />} />
       <Route path="/news" element={<News />} />
       <Route path="/ReadingGroup" element={<ReadingGroup />} />

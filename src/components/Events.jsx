@@ -24,15 +24,21 @@ function Events() {
                     <p style={{color: "#FF6B48", "text-align": 'center', "font-size": 25}}>Past Events</p>
                     
                     {/* Our Events */}
-                    <img alt="" src={panel} style={{'width': '60%'}}/>
+                    
+                    <img alt="" class="rounded" style={{'width': '60%'}} src={epai_mid_banner}/>
+                    <p style={{'text-align': 'center', 'color': '#00a5b9', 'font-size': '20pt'}}>Info Session 2022</p>
+                    <p style={{'text-align': 'center', 'margin-left': '15%', 'margin-right': '15%'}}>EPAI hosted its inaugural info session on Saturday, September 18th, 2021 from 3:00-4:00 pm! Click below for the event recording and slides.</p>
+                    <NavLink to='/info2022'><div class="text-center"><button style={{"margin-bottom":'30pt', width:"75%"}} type="button" class="btn btn-info">Info Session 2022 Details</button></div></NavLink>
+                    
+                    <img alt="" class="rounded" src={panel} style={{'width': '60%'}}/>
                     <p style={{'text-align': 'center', 'color': '#00a5b9', 'font-size': '20pt'}}>Speaker Panel</p>
                     <NavLink to='/panel2021'><div class="text-center"><button style={{"margin-bottom":'30pt', width:"75%"}} type="button" class="btn btn-info">Learn More</button></div></NavLink>
 
-                    <img alt="" src={rob} style={{'width': '60%'}}/>
+                    <img alt="" class="rounded" src={rob} style={{'width': '60%'}}/>
                     <p style={{'text-align': 'center', 'color': '#00a5b9', 'font-size': '20pt'}}>Responsible AI in Disaster Risk Management: A Community of Practice and Perspective</p>
                     <NavLink to='/RaiSoden'><div class="text-center"><button style={{"margin-bottom":'30pt', width:"75%"}} type="button" class="btn btn-info">Learn More</button></div></NavLink>
 
-                    <img alt="" src={dullerud} style={{'width': '60%'}}/>
+                    <img alt="" class="rounded" src={dullerud} style={{'width': '60%'}}/>
                     <p style={{'text-align': 'center', 'color': '#00a5b9', 'font-size': '20pt'}}>Reading Race: AI Recognizes Patient's Racial Identity in Medical Images</p>
                     <NavLink to='/dullerud'><div class="text-center"><button style={{"margin-bottom":'30pt', width:"75%"}} type="button" class="btn btn-info">Learn More</button></div></NavLink>
 

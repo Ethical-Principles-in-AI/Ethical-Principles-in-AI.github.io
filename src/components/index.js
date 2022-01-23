@@ -9,6 +9,7 @@ export { default as RaiSoden } from "./events/raiSoden";
 export { default as Dullerud } from "./events/dullerud";
 export { default as Fair2021 } from "./events/fair2021";
 export { default as Info2021 } from "./events/info2021";
+export { default as Info2022 } from "./events/info2022";
 export { default as Panel2021 } from "./events/panel2021";
 export { default as News } from "./News";
 export { default as ReadingGroup } from "./ReadingGroup";
