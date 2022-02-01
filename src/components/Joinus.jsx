@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../images/epai_logo.png";
+import hack_app from "../images/hackathon_lead.png";
 import signup from "../images/signup.jpg";
 import email from "../images/email_green.png";
 import membership from "../images/membership.png";
@@ -27,6 +28,20 @@ function Joinus() {
                 <h1 style={{'textAlign':'center'}}>Check out our latest podcast!</h1>
                 <p style={{'textAlign':'center'}}>"A Look at Deepfakes: Past, Present, and Future Possibilities"</p>
                 <NavLink to='/projects'><div class="text-center"><button style={{"margin-bottom":'30pt', width:"75%"}} type="button" class="btn btn-info">Click Here to Stream!</button></div></NavLink>
+              </div>
+            </div>
+          </div>
+          <hr/>
+
+          <div class="container text-center">
+            <div class="row">
+              <div class="col">
+                  <img alt="" class="rounded" style={{'width': '100%'}} src={hack_app}/>
+              </div>
+              <div class="col-7">
+                <h1 style={{'textAlign':'center'}}>Our Upcoming Hackathon!</h1>
+                <p style={{'textAlign':'center'}}>Sign up for the Leadership team of our upcoming Hackathon!<br/>Applications close February 13th</p>
+                <a target="_blank" rel="noopener noreferrer" href="https://forms.gle/4xKRvt5MWJjhFmkF6"><div class="text-center"><button style={{"margin-bottom":'30pt', width:"75%"}} type="button" class="btn btn-info">More Info</button></div></a>
               </div>
             </div>
           </div>
