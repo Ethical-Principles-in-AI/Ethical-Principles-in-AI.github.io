@@ -16,9 +16,6 @@ After making edits ensure that you push to the repo. Either in a separate branch
 5. When you are happy with your changes you can run `npm run deploy` to deploy the site to the GitHub Pages delpoyment.
 
 
-## Layout
-- The bulk of the site's content can be found within `src/components` with `src/template.jsx` being a great starting point for building out new pages
-
 ## Creating a New Page
 1. Start by duplicating the `src/template.jsx` file and renaming it to a descriptive name. Its contents are approximately as follows:
 ```javascript
@@ -108,3 +105,8 @@ serviceWorker.unregister();
 Now the file is created and will be accessible via the chosen path after deployment.
 
 This can be linked to from another page or the NavBar using NavLink.
+
+## Layout / Fun Facts
+- The bulk of the site's content can be found within `src/components` with `src/template.jsx` being a great starting point for building out new pages
+- When you run `npm run deploy` the deployment will be compiled into the `gh-pages` branch which is where the site is being hosted from. This allows us to continue using the main branch for our primary codebase
+- While React is typically used for creating single page websites, you can make use of `react-router-dom` to allow pseudo multi-page websites as we have done here. This can result in some complications with GitHub trying to load from alternative repositories when using paths to access these pages. This can be fixed by creating a 404.html file to redirect these 404 errors back to your main repository.
