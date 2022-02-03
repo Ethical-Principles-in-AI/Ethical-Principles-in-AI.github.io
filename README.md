@@ -106,3 +106,5 @@ serviceWorker.unregister();
 
 ```
 Now the file is created and will be accessible via the chosen path after deployment.
+
+This can be linked to from another page or the NavBar using NavLink.
