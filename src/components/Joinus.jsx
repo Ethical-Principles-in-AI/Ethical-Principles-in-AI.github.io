@@ -2,7 +2,6 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../images/epai_logo.png";
 import hack_app from "../images/hackathon_lead.png";
-import signup from "../images/signup.jpg";
 import email from "../images/email_green.png";
 import membership from "../images/membership.png";
 import discord from "../images/discord.png";
@@ -50,25 +49,17 @@ function Joinus() {
           <div class="container text-center">
             <div class="row">
               <div class="col">
-                <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSfnXLGcSUgaqoexX_9s4ESoel51GNQRhoyUAnzLvardZBO3iw/viewform">
-                  <figure>
-                    <img alt="" class="rounded" style={{'width': '100%'}} src={signup}/>
-                    <p style={{'textAlign': 'center', 'font-size':'15pt'}}>Become a Project Member</p>
-                  </figure>
-                </a>
-              </div>
-              <div class="col">
                 <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLScBhjIogOTjRyTTOWOi_RD3iX1rcsrCKX9mffZjoloQ8v6--w/viewform">
                   <figure>
-                    <img alt="" class="rounded" style={{'width': '100%'}} src={email}/>
+                    <img alt="" class="rounded" style={{'width': '60%'}} src={email}/>
                     <p style={{'textAlign': 'center', 'font-size':'15pt'}}>Join Our Mailing List</p>
                   </figure>
                 </a>
               </div>
               <div class="col">
-                <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSctIjXMqvTVr8NUI-qcwUYjNBDQYvOZFWXhvpRflkkd5OwxRg/viewform">
+                <a target="_blank" rel="noopener noreferrer" href="https://forms.gle/NCV7ReRPg8gaP5ft8">
                   <figure>
-                    <img alt="" class="rounded" style={{'width': '100%'}} src={membership}/>
+                    <img alt="" class="rounded" style={{'width': '60%'}} src={membership}/>
                     <p style={{'textAlign': 'center', 'font-size':'15pt'}}>Register to become a member</p>
                   </figure>
                 </a>
