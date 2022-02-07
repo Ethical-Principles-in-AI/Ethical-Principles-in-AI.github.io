@@ -20,6 +20,7 @@ import {
   News,
   ReadingGroup,
   ScrollToTop,
+  Opportunities,
 } from "./components";
 
 ReactDOM.render(
@@ -41,6 +42,7 @@ ReactDOM.render(
       <Route path="/panel2021" element={<Panel2021 />} />
       <Route path="/news" element={<News />} />
       <Route path="/ReadingGroup" element={<ReadingGroup />} />
+      <Route path="/Opportunities" element={<Opportunities />} />
     </Routes>
     <Footer />
   </Router>,

@@ -43,6 +43,11 @@ function Navigation() {
                 </NavLink>
               </li>
               <li className="nav-item">
+                <NavLink style={{"white-space": 'nowrap'}} className="nav-link" to="/Opportunities">
+                  Opportunities
+                </NavLink>
+              </li>
+              <li className="nav-item">
                 <NavLink style={{"white-space": 'nowrap'}} className="nav-link" to="/joinus">
                   Join Us
                 </NavLink>
