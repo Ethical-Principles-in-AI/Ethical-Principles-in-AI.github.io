@@ -20,7 +20,7 @@ After making edits ensure that you push to the repo. Either in a separate branch
 1. Start by duplicating the `src/template.jsx` file and renaming it to a descriptive name. Its contents are approximately as follows:
 ```javascript
 import React from "react";
-import panel from "../../images/ethics_panel_page.png" // Image Import
+import panel from "../../images/ethics_panel_page.png"; // Image Import
 
 export default function template() {
   return (
