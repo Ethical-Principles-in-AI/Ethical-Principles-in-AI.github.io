@@ -1,5 +1,5 @@
 import React from "react";
-import panel from "../../images/ethics_panel_page.png"
+import panel from "../images/ethics_panel_page.png"
 
 export default function template() {
   return (
