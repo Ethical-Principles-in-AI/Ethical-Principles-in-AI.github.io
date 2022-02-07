@@ -40,7 +40,7 @@ export default function template() {
 }
 ```
 
-2. Change `template` in line 4 to an equally descriptive name for this page. This will also need to be added two other files. For this example whenever you see "template" replace that with the name you put here.
+2. Change `template` in line 4 to an equally descriptive name for this page. This will also need to be added to two other files. For this example whenever you see "template" replace that with the name you put here.
 3. Edit `src/index.js` to add a line that says:
 `export { default as template } from "./template";`
 4. Edit `./index,js` as follows:
