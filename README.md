@@ -2,7 +2,7 @@
 This repo contains the code for EPAI's React based website in the "main" branch.
 When compiled the code is deployed to the "gh-pages" branch as that is where the code is hosted from.
 
-##### Note:
+#### Note:
 Code snippets are a snapshot of a previous version of the codebase. Current files may have additional pages/lines.
 
 ## Usage
