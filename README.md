@@ -13,7 +13,7 @@ In order to run this site locally for editing or testing purposes you can do the
 Before making edits ensure you have pulled the current version of the website to avoid conflicts if someone else has made changes.
 After making edits ensure that you push to the repo. Either in a separate branch to be merged with the main or directly to main if you only made small tweaks.
 
-5. When you are happy with your changes you can run `npm run deploy` to deploy the site to the GitHub Pages delpoyment.
+5. When you are happy with your changes you can run `npm run deploy` to deploy the site to the GitHub Pages deployment.
 
 
 ## Creating a New Page
