@@ -5,6 +5,7 @@ import panel from "../images/Ethics_panel.jpg";
 import dullerud from "../images/Dullerud.png";
 import club_fair from "../images/club_fair.png";
 import epai_mid_banner from "../images/epai_mid_banner.png";
+import speaker_series_feb2022 from "../images/speaker_series_feb2022.png";
 
 function Events() {
   return (
@@ -19,8 +20,13 @@ function Events() {
                     {/* <p style={{color: "#FF6B48", "text-align": 'center', "font-size": 25}}>Calendar</p>
                     <iframe title="EPAI Calendar" src="https://calendar.google.com/calendar/embed?src=2rfpolkl557oqa9ma9dio74hos%40group.calendar.google.com&ctz=America%2FToronto" width="100%" height="600" frameborder="0" scrolling="no"></iframe> */}
                     <hr/>
+
+                    {/* Upcoming Events */}
                     <p style={{color: "#FF6B48", "text-align": 'center', "font-size": 25}}>Upcoming Events</p>
-                    <p style={{'textAlign': 'center'}}>Upcoming events are scheduled for the winter semester, more information will be shared in 2022, see you there!</p>
+                    {/* <p style={{'textAlign': 'center'}}>Upcoming events are scheduled for the winter semester, more information will be shared in 2022, see you there!</p> */}
+                    <img alt="" class="rounded" src={speaker_series_feb2022} style={{'width': '60%'}}/>
+                    <p style={{'text-align': 'center', 'color': '#00a5b9', 'font-size': '20pt'}}>Speaker Series: Decolonize AI</p>
+                    <NavLink to='/Decolonize_AI'><div class="text-center"><button style={{"margin-bottom":'30pt', width:"75%"}} type="button" class="btn btn-info">Learn More</button></div></NavLink>
                     <p style={{color: "#FF6B48", "text-align": 'center', "font-size": 25}}>Past Events</p>
                     
                     {/* Our Events */}
