@@ -23,13 +23,15 @@ function Events() {
 
                     {/* Upcoming Events */}
                     <p style={{color: "#FF6B48", "text-align": 'center', "font-size": 25}}>Upcoming Events</p>
-                    {/* <p style={{'textAlign': 'center'}}>Upcoming events are scheduled for the winter semester, more information will be shared in 2022, see you there!</p> */}
-                    <img alt="" class="rounded" src={speaker_series_feb2022} style={{'width': '60%'}}/>
-                    <p style={{'text-align': 'center', 'color': '#00a5b9', 'font-size': '20pt'}}>Speaker Series: Decolonize AI</p>
-                    <NavLink to='/Decolonize_AI'><div class="text-center"><button style={{"margin-bottom":'30pt', width:"75%"}} type="button" class="btn btn-info">Learn More</button></div></NavLink>
+                    <p style={{'textAlign': 'center'}}>Upcoming events are scheduled for the winter semester, more information will be shared in 2022, see you there!</p>
+
+
                     <p style={{color: "#FF6B48", "text-align": 'center', "font-size": 25}}>Past Events</p>
                     
                     {/* Our Events */}
+                    <img alt="" class="rounded" src={speaker_series_feb2022} style={{'width': '60%'}}/>
+                    <p style={{'text-align': 'center', 'color': '#00a5b9', 'font-size': '20pt'}}>Speaker Series: Decolonize AI</p>
+                    <NavLink to='/Decolonize_AI'><div class="text-center"><button style={{"margin-bottom":'30pt', width:"75%"}} type="button" class="btn btn-info">Learn More</button></div></NavLink>
                     
                     <img alt="" class="rounded" style={{'width': '60%'}} src={epai_mid_banner}/>
                     <p style={{'text-align': 'center', 'color': '#00a5b9', 'font-size': '20pt'}}>Info Session 2022</p>

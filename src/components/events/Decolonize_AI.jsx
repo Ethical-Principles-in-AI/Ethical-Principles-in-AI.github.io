@@ -26,7 +26,7 @@ function Decolonize_AI() {
                 </p>
               </div>
             </div>
-                  <a target="_blank" rel="noopener noreferrer" href="https://utoronto.zoom.us/meeting/register/tZcodO6rrDIjHN1GZLi9nPag9Qlk8fishISJ"><div class="text-center"><button style={{width:"75%"}} type="button" class="btn btn-info">Register</button></div></a>
+                  <a target="_blank" rel="noopener noreferrer" href="https://utoronto.zoom.us/rec/play/n_zZOlwRb4eJMj1WUw7XOVZZxXx_d6HbqETMEAf1kUboMdi1X00cb2_wI5njal5UIJtgw_BVda-X1sd9.la0enjXASGYsDdIb"><div class="text-center"><button style={{width:"75%"}} type="button" class="btn btn-info">View Recording</button></div></a>
           </div>
         </div>
       </div>
