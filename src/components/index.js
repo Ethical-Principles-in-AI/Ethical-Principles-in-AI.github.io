@@ -16,3 +16,4 @@ export { default as ReadingGroup } from "./ReadingGroup";
 export { default as ScrollToTop } from "./ScrollToTop";
 export { default as Opportunities } from "./Opportunities";
 export { default as DecolonizeAI } from "./events/Decolonize_AI";
+export { default as AuditAI } from "./events/Audit_AI";

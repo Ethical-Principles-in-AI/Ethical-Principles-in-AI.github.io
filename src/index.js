@@ -22,6 +22,7 @@ import {
   ScrollToTop,
   Opportunities,
   DecolonizeAI,
+  AuditAI,
 } from "./components";
 
 ReactDOM.render(
@@ -45,6 +46,7 @@ ReactDOM.render(
       <Route path="/ReadingGroup" element={<ReadingGroup />} />
       <Route path="/Opportunities" element={<Opportunities />} />
       <Route path="/Decolonize_AI" element={<DecolonizeAI />} />
+      <Route path="/Audit_AI" element={<AuditAI />} />
     </Routes>
     <Footer />
   </Router>,
