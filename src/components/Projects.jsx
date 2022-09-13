@@ -2,6 +2,9 @@ import React from "react";
 import anchor from "../images/anchor_logo.jpg";
 import rss from "../images/rss_logo.png";
 import mic from "../images/mic.png";
+import twitter from "../images/Twitter-logo.svg.png";
+import privacy from "../images/privacy.png";
+import debiasing from "../images/Debiasing_model.png";
 import fac_rec from "../images/facial-recognition.png";
 import paper_reading from "../images/paper_reading.jpg";
 import { NavLink } from "react-router-dom";
@@ -61,7 +64,7 @@ function Projects() {
                     </div>
                 </div>
             </div>
-            <p></p>
+            <hr />
             <div class="container">
                 <div class="row">
                     <div class="col text-center">
@@ -78,15 +81,15 @@ function Projects() {
                     </div>
                 </div>
             </div>
-            <p></p>
+            <hr />
             <div class="container">
                 <div class="row">
                     <div class="col-7">
-                        <p class="text-center" style={{color: "#FF6B48"}}>Bias in Facial Recognition Systems</p>
+                        <p class="text-center" style={{color: "#FF6B48"}}>Past Project - Bias in Facial Recognition Systems</p>
                         <p>
                             Facial recognition systems can be found almost anywhere, from police departments to the face-lock feature in your phone. 
                             However, these systems can be biased, often in ways that reflect current social inequalities. 
-                            This applied project explores bias in facial recognition systems, while also serving as an introduction to writing machine learning code and reading ML literature for beginners.
+                            This applied project explores bias in facial recognition systems, while also serving as an introduction to writing machine learning code and reading ML literature for beginners. The final research paper is available <a href="https://docs.google.com/document/d/1_eMwvZfQjdXyqFjo34gNqYD_WJCflSRhKlhHiWdnOv4/edit?usp=sharing" class="alert-link">here.</a>
                         </p>
                     </div>
                     <p></p>
@@ -96,6 +99,54 @@ function Projects() {
                     </div>
                 </div>
             </div>
+            <hr />
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center">
+                        <img class="rounded" alt="Podcast Icon" style={{"width": "50%"}} src={twitter}/>
+                        <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1fA3NDwv2FT4Hbo6fWJ5QwO4XiFffymNMAfZ6SnOsFeY/edit?usp=sharing"><div><button style={{width:"50%"}} type="button" class="btn btn-info">Full Project Proposal</button></div></a>
+                    </div>
+                    <div class="col-7">
+                        <p class="text-center" style={{color: "#FF6B48"}}>Sentiment Analysis of Tweets</p>
+                        <p>
+                        Hateful posts have become a regular phenomena, so moderation is needed, however at such high volumes it is hard to contain. In this project, you will work with a team over the fall and winter semester to design a solution to containing harmful posts. Do so by creating a sentiment analysis model to highlight stigmatic posts to users before they post the text.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr />
+
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-7">
+                        <p class="text-center" style={{color: "#FF6B48"}}>Debiasing NLP Models</p>
+                        <p>
+                        Word embeddings are used widely in Natural Language Processing (NLP) tasks. They have many applications, such as resume filtering or document ranking in word search. Unfortunately, word embedding models have been shown to amplify biases found in the datasets they were trained on. This exacerbates the negative stereotypes found in society, which is a direct violation of the principles of responsible technology and ethical AI. There is a need to reduce and/or eliminate bias in word embeddings so that algorithms can better serve society and align with the public interest. Over the course of the fall and winter semester, collaborate with a team to design a debiased word embedding model and demonstrate your work in a website or through a video.
+                        </p>
+                    </div>
+                    <div class="col text-center">
+                        <img class="rounded" alt="Podcast Icon" style={{"width": "50%"}} src={debiasing}/>
+                        <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1ANpUPhV4-am0xihkBelLxO4oeWiALgv-dnIWYFMHmTE/edit?usp=sharing"><div><button style={{width:"50%"}} type="button" class="btn btn-info">Full Project Proposal</button></div></a>
+                    </div>
+                </div>
+            </div>
+            <hr />
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center">
+                        <img class="rounded" alt="Podcast Icon" style={{"width": "50%"}} src={privacy}/>
+                        <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1tIAaWtd3StW_cuwnCszXiMxrVMGsrUGtGE-OPlbZUV8/edit?usp=sharing"><div><button style={{width:"50%"}} type="button" class="btn btn-info">Full Project Proposal</button></div></a>
+                    </div>
+                    <div class="col-7">
+                        <p class="text-center" style={{color: "#FF6B48"}}>Deep Learning with Differential Privacy</p>
+                        <p>
+                        Training high quality machine learning models requires large, representative datasets, which may be crowdsourced and contain sensitive information. Even in instances when sensitive information is not explicitly used to train a model, patterns can be extracted and re-identify personal identification about an individual. Models should be designed to protect private information in these datasets. In this project, different algorithmic techniques for learning will be implemented on medical image datasets and an analysis of privacy costs within the framework of differential privacy will be completed to evaluate the merits and room for improvement of different techniques. This project deliverable will be a research paper summarizing the results found throughout the fall and winter semester.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr />
 
         </div>
       </div>
