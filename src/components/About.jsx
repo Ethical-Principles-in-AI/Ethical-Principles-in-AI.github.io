@@ -22,7 +22,7 @@ function About() {
           <p style={{color: "#FF6B48", "text-align": 'center', "font-size": 25}}>Who we are</p>
           <div>
             <p>
-              We are a group of motivated students aiming to spread awareness about the impacts of AI on our society. 
+              We are a group of passionate students aiming to spread awareness about the impacts of AI on our society. 
               Through EPAI, we hope to create an open environment to foster critical discussions about the consequences of the use of AI.   
             </p>
             
