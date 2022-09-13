@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4ddc60dd.css",
-    "main.js": "/static/js/main.33328e85.js",
+    "main.js": "/static/js/main.817a6a99.js",
     "static/media/emily.jpg": "/static/media/emily.f29ae3822e7bef20ba0d.jpg",
     "static/media/garg.png": "/static/media/garg.831beb41df45c8ded96b.png",
     "static/media/fizzah.png": "/static/media/fizzah.07ed02c080f780115062.png",
@@ -30,17 +30,20 @@
     "static/media/epai_logo.png": "/static/media/epai_logo.e502dc0cef3c434c1abf.png",
     "static/media/paper_reading.jpg": "/static/media/paper_reading.d27cf5f3784a3b621625.jpg",
     "static/media/epai_banner.png": "/static/media/epai_banner.70f0301de77bf6d18af6.png",
+    "static/media/Debiasing_model.png": "/static/media/Debiasing_model.a86e4f01788ac3567946.png",
     "static/media/hackathon_lead.png": "/static/media/hackathon_lead.e1f0572866c4640460e2.png",
     "static/media/dhruv.jpg": "/static/media/dhruv.9b86b54f4bb5df9371e8.jpg",
     "static/media/facial-recognition.png": "/static/media/facial-recognition.5374780028ee7f44127e.png",
     "static/media/mic.png": "/static/media/mic.8a60d7a28cd4a4a8f401.png",
+    "static/media/Twitter-logo.svg.png": "/static/media/Twitter-logo.svg.04f7a024bcf8dae9a657.png",
+    "static/media/privacy.png": "/static/media/privacy.92eaf5e0c9f06acbfa41.png",
     "static/media/resource_advanced.png": "/static/media/resource_advanced.002f752244c3d1301a22.png",
     "index.html": "/index.html",
     "main.4ddc60dd.css.map": "/static/css/main.4ddc60dd.css.map",
-    "main.33328e85.js.map": "/static/js/main.33328e85.js.map"
+    "main.817a6a99.js.map": "/static/js/main.817a6a99.js.map"
   },
   "entrypoints": [
     "static/css/main.4ddc60dd.css",
-    "static/js/main.33328e85.js"
+    "static/js/main.817a6a99.js"
   ]
 }
