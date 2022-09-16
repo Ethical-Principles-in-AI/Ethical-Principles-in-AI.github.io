@@ -45,32 +45,13 @@ function Projects() {
             <p style={{color: "#FF6B48", "text-align": 'center', "font-size": 30}}>Sign up to be a Podcast Team Member</p>
             <p style={{"text-align": 'center'}}>If you have any questions, please reach out to <a target="_blank" rel="noopener noreferrer" href="mailto:utoronto.epai@gmail.com">utoronto.epai@gmail.com</a></p>
             <a target="_blank" rel="noopener noreferrer" href="https://forms.gle/v5bmfrJX1oVbtThg6"><div class="text-center"><button style={{width:"75%"}} type="button" class="btn btn-info">Info</button></div></a>
-            <hr/>
+          
             
-            <div class="container">
-                <div class="row">
-                    <div class="col-7">
-                        <p class="text-center" style={{color: "#FF6B48"}}>Paper Reading Group</p>
-                        <p>
-                            We meet bi-weekly during the semester to discuss academic papers in the field of Ethical AI. 
-                            Participation is open to all and guests are always welcome! 
-                            Meetings will be held in the EPAI discord voice channel paper-reading-meeting-room.
-                        </p>
-                    </div>
-                    <p></p>
-                    <div class="col text-center">
-                        <img class="rounded" alt="Facial Recognition Icon" style={{"width": "50%"}} src={paper_reading}/>
-                        <NavLink to="/ReadingGroup"><div><button style={{width:"50%"}} type="button" class="btn btn-info">Full Project Proposal</button></div></NavLink>
-                    </div>
-                </div>
-            </div>
+
             <hr />
             <div class="container">
                 <div class="row">
-                    <div class="col text-center">
-                        <img class="rounded" alt="Podcast Icon" style={{"width": "50%"}} src={mic}/>
-                        <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1aYXGIbq5tH7aoVb2tabqqidE9GFo7z-b2C6wTMmKPh8/edit?usp=sharing"><div><button style={{width:"50%"}} type="button" class="btn btn-info">Full Project Proposal</button></div></a>
-                    </div>
+  
                     <div class="col-7">
                         <p class="text-center" style={{color: "#FF6B48"}}>Ethics in AI Podcast</p>
                         <p>
@@ -79,27 +60,15 @@ function Projects() {
                             This project gives autonomy to pick which topics from ethics in AI to explore, while also serving as practice for reading academic literature (amongst other sources) and communicating sometimes technical/difficult concepts clearly to a wide audience.
                         </p>
                     </div>
-                </div>
-            </div>
-            <hr />
-            <div class="container">
-                <div class="row">
-                    <div class="col-7">
-                        <p class="text-center" style={{color: "#FF6B48"}}>Past Project - Bias in Facial Recognition Systems</p>
-                        <p>
-                            Facial recognition systems can be found almost anywhere, from police departments to the face-lock feature in your phone. 
-                            However, these systems can be biased, often in ways that reflect current social inequalities. 
-                            This applied project explores bias in facial recognition systems, while also serving as an introduction to writing machine learning code and reading ML literature for beginners. The final research paper is available <a href="https://docs.google.com/document/d/1_eMwvZfQjdXyqFjo34gNqYD_WJCflSRhKlhHiWdnOv4/edit?usp=sharing" class="alert-link">here.</a>
-                        </p>
-                    </div>
-                    <p></p>
                     <div class="col text-center">
-                        <img class="rounded" alt="Facial Recognition Icon" style={{"width": "50%"}} src={fac_rec}/>
-                        <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1DQqjuvKkU0-y_HAT7XPFMFJ5hXj1Zx_q2xvnq7N_MSw/edit?usp=sharing"><div><button style={{width:"50%"}} type="button" class="btn btn-info">Full Project Proposal</button></div></a>
+                        <img class="rounded" alt="Podcast Icon" style={{"width": "50%"}} src={mic}/>
+                        <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1aYXGIbq5tH7aoVb2tabqqidE9GFo7z-b2C6wTMmKPh8/edit?usp=sharing"><div><button style={{width:"50%"}} type="button" class="btn btn-info">Full Project Proposal</button></div></a>
                     </div>
                 </div>
             </div>
             <hr />
+
+     
             <div class="container">
                 <div class="row">
                     <div class="col text-center">
@@ -147,7 +116,42 @@ function Projects() {
                 </div>
             </div>
             <hr />
+            <div class="container">
+                <div class="row">
+                    <div class="col-7">
+                        <p class="text-center" style={{color: "#FF6B48"}}>Past Initiatives - Paper Reading Group</p>
+                        <p>
+                            We meet bi-weekly during the semester to discuss academic papers in the field of Ethical AI. 
+                            Participation is open to all and guests are always welcome! 
+                            Meetings will be held in the EPAI discord voice channel paper-reading-meeting-room. An example of a paper reading group session is available <a href="https://youtu.be/l93b1R4beHc" class="alert-link">here.</a>
+                        </p>
+                    </div>
+                    <p></p>
+                    <div class="col text-center">
+                        <img class="rounded" alt="Facial Recognition Icon" style={{"width": "50%"}} src={paper_reading}/>
+                        <NavLink to="/ReadingGroup"><div><button style={{width:"50%"}} type="button" class="btn btn-info">Full Project Proposal</button></div></NavLink>
+                    </div>
+                </div>
+            </div>
+            <hr />
+            <div class="container">
+                <div class="row">
+                <div class="col text-center">
+                        <img class="rounded" alt="Facial Recognition Icon" style={{"width": "50%"}} src={fac_rec}/>
+                        <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1DQqjuvKkU0-y_HAT7XPFMFJ5hXj1Zx_q2xvnq7N_MSw/edit?usp=sharing"><div><button style={{width:"50%"}} type="button" class="btn btn-info">Full Project Proposal</button></div></a>
+                    </div>
+                    <div class="col-7">
+                        <p class="text-center" style={{color: "#FF6B48"}}>Past Project - Bias in Facial Recognition Systems</p>
+                        <p>
+                            Facial recognition systems can be found almost anywhere, from police departments to the face-lock feature in your phone. 
+                            However, these systems can be biased, often in ways that reflect current social inequalities. 
+                            This applied project explores bias in facial recognition systems, while also serving as an introduction to writing machine learning code and reading ML literature for beginners. The final research paper is available <a href="https://docs.google.com/document/d/1_eMwvZfQjdXyqFjo34gNqYD_WJCflSRhKlhHiWdnOv4/edit?usp=sharing" class="alert-link">here.</a>
+                        </p>
+                    </div>
+                    <p></p>
 
+                </div>
+            </div>
         </div>
       </div>
     </div>
