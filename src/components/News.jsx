@@ -54,7 +54,7 @@ function news() {
             <li>Meme of the Week</li>
         </ul>
 
-        <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLScBhjIogOTjRyTTOWOi_RD3iX1rcsrCKX9mffZjoloQ8v6--w/viewform"><p style={{color: "#FF6B48", "text-align": 'center', 'font-size':'20pt'}}><u>Subscribe to EPAI's Newsletter</u></p></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSfiWqGIGpyTQeIFczuXJApwEECqR6Wjyyarg5OcCmtbfuCibQ/viewform?usp=sf_link"><p style={{color: "#FF6B48", "text-align": 'center', 'font-size':'20pt'}}><u>Subscribe to EPAI's Newsletter</u></p></a>
         </div>
       </div>
     </div>

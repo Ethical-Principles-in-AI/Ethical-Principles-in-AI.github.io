@@ -7,6 +7,7 @@ import club_fair from "../images/club_fair.png";
 import epai_mid_banner from "../images/epai_mid_banner.png";
 import speaker_series_feb2022 from "../images/speaker_series_feb2022.png";
 import garg from "../images/garg.png";
+import LaMDA from "../images/LaMDA.png";
 
 function Events() {
   return (
@@ -18,20 +19,25 @@ function Events() {
                     <hr/>
                     <p style={{'textAlign': 'center'}}>We live in an age of rapid technological development which has presented us with many benefits but also consequences. To help us better understand the ethical concerns that have arisen recently in the emerging fields of artificial intelligence, EPAI is holding monthly workshops that come in various formats. They can be a talk or presentation from a guest speaker,  an introduction to visualize ethical concerns with actual code and models, or opportunities to exchange and express ideas in the format of a debate.</p>
                     <p style={{'textAlign': 'center'}}>Stay tuned to our website and other social media accounts for updates!</p>
-                    {/* <p style={{color: "#FF6B48", "text-align": 'center', "font-size": 25}}>Calendar</p>
-                    <iframe title="EPAI Calendar" src="https://calendar.google.com/calendar/embed?src=2rfpolkl557oqa9ma9dio74hos%40group.calendar.google.com&ctz=America%2FToronto" width="100%" height="600" frameborder="0" scrolling="no"></iframe> */}
+                   
                     <hr/>
 
-                    {/* Upcoming Events */}
-                    <p style={{color: "#FF6B48", "text-align": 'center', "font-size": 25}}>Upcoming Events</p>
-                    <img alt="" class="rounded" src={garg} style={{'width': '60%'}}/>
-                    <p style={{'text-align': 'center', 'color': '#00a5b9', 'font-size': '20pt'}}>Speaker Series: Auditing AI Models for Verified Deployment</p>
-                    <NavLink to='/Audit_AI'><div class="text-center"><button style={{"margin-bottom":'30pt', width:"75%"}} type="button" class="btn btn-info">Learn More</button></div></NavLink>
+                    
+                    {/*<p style={{color: "#FF6B48", "text-align": 'center', "font-size": 25}}>Upcoming Events</p>*/}
                     
                     {/* <p style={{'textAlign': 'center'}}>Upcoming events are scheduled for the winter semester, more information will be shared in 2022, see you there!</p> */}
 
 
                     <p style={{color: "#FF6B48", "text-align": 'center', "font-size": 25}}>Past Events</p>
+
+                    <img alt="" class="rounded" src={LaMDA} style={{'width': '60%'}}/>
+                    <p style={{'text-align': 'center', 'color': '#00a5b9', 'font-size': '20pt'}}>Discussion on LaMDA</p>
+                    <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/presentation/d/18p5OT2xsOM1VNMe2MWNC5cE1okpJROJfqYHll65V3w0/edit#slide=id.p"><div><button style={{"margin-bottom":'30pt', width:"75%"}} type="button" class="btn btn-info">Learn More</button></div></a>
+                    
+
+                    <img alt="" class="rounded" src={garg} style={{'width': '60%'}}/>
+                    <p style={{'text-align': 'center', 'color': '#00a5b9', 'font-size': '20pt'}}>Speaker Series: Auditing AI Models for Verified Deployment</p>
+                    <NavLink to='/Audit_AI'><div class="text-center"><button style={{"margin-bottom":'30pt', width:"75%"}} type="button" class="btn btn-info">Learn More</button></div></NavLink>
                     
                     {/* Our Events */}
                     <img alt="" class="rounded" src={speaker_series_feb2022} style={{'width': '60%'}}/>

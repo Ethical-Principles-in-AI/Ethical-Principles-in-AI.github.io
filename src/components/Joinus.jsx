@@ -32,24 +32,11 @@ function Joinus() {
           </div>
           <hr/>
 
-          <div class="container text-center">
-            <div class="row">
-              <div class="col">
-                  <img alt="" class="rounded" style={{'width': '100%'}} src={hack_app}/>
-              </div>
-              <div class="col-7">
-                <h1 style={{'textAlign':'center'}}>Our Upcoming Hackathon!</h1>
-                <p style={{'textAlign':'center'}}>Sign up for the Leadership team of our upcoming Hackathon!<br/>Applications close February 13th</p>
-                <a target="_blank" rel="noopener noreferrer" href="https://forms.gle/4xKRvt5MWJjhFmkF6"><div class="text-center"><button style={{"margin-bottom":'30pt', width:"75%"}} type="button" class="btn btn-info">More Info</button></div></a>
-              </div>
-            </div>
-          </div>
-          <hr/>
 
           <div class="container text-center">
             <div class="row">
               <div class="col">
-                <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLScBhjIogOTjRyTTOWOi_RD3iX1rcsrCKX9mffZjoloQ8v6--w/viewform">
+                <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSfiWqGIGpyTQeIFczuXJApwEECqR6Wjyyarg5OcCmtbfuCibQ/viewform?usp=sf_link">
                   <figure>
                     <img alt="" class="rounded" style={{'width': '60%'}} src={email}/>
                     <p style={{'textAlign': 'center', 'font-size':'15pt'}}>Join Our Mailing List</p>
@@ -57,7 +44,7 @@ function Joinus() {
                 </a>
               </div>
               <div class="col">
-                <a target="_blank" rel="noopener noreferrer" href="https://forms.gle/NCV7ReRPg8gaP5ft8">
+                <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSfM3FLyjZFq8Ue2Bi2DEZZXnpUX-e-5TTrvR2-dpZqEilitvg/viewform?usp=sf_link">
                   <figure>
                     <img alt="" class="rounded" style={{'width': '60%'}} src={membership}/>
                     <p style={{'textAlign': 'center', 'font-size':'15pt'}}>Register to become a member</p>
@@ -94,8 +81,8 @@ function Joinus() {
           </div>
           <hr/>
           <h1>Question about EPAI?</h1>
-          <p style={{'textAlign':'center'}}>Check out our recorded Info Session or contact us at <a target="_blank" rel="noopener noreferrer" href="mailto:utoronto.epai@gmail.com">utoronto.epai@gmail.com</a>.</p>
-                <NavLink to='/info2021'><div class="text-center"><button style={{"margin-bottom":'30pt', width:"75%"}} type="button" class="btn btn-info">2021/22 Info Session Details</button></div></NavLink>
+          <p style={{'textAlign':'center'}}>Check out our Info Session or contact us at <a target="_blank" rel="noopener noreferrer" href="mailto:utoronto.epai@gmail.com">utoronto.epai@gmail.com</a>.</p>
+          <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/presentation/d/13J1V3hUPxEvA1afDaPCh-RI9BHnWfZm-tZjLdTeYV6o/edit#slide=id.p"><div><button style={{width:"100%"}} type="button" class="btn btn-info">2022/2023 General Meeting</button></div></a>
 
         </div>
       </div>

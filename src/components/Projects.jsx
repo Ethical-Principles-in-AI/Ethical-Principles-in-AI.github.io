@@ -4,10 +4,12 @@ import rss from "../images/rss_logo.png";
 import mic from "../images/mic.png";
 import twitter from "../images/Twitter-logo.svg.png";
 import privacy from "../images/privacy.png";
+import hackathon from "../images/AIHacks4Good_Logo.png";
 import debiasing from "../images/Debiasing_model.png";
 import fac_rec from "../images/facial-recognition.png";
 import paper_reading from "../images/paper_reading.jpg";
 import { NavLink } from "react-router-dom";
+
 
 function Projects() {
   return (
@@ -150,6 +152,22 @@ function Projects() {
                     </div>
                     <p></p>
 
+                </div>
+            </div>
+            <hr />
+            <div class="container">
+                <div class="row">
+                    <div class="col-7">
+                        <p class="text-center" style={{color: "#FF6B48"}}>Past Initiatives - AIHacks4Good</p>
+                        <p>
+                            This was a virtual hackathon ran in October 2022, with over 160 participants. The event was sponsored by MLH, IBM, and Intel, and included over 1000 dollars in cash prizes!
+                        </p>
+                    </div>
+                    <p></p>
+                    <div class="col text-center">
+                        <img class="rounded" alt="Facial Recognition Icon" style={{"width": "50%"}} src={hackathon}/>
+                        <a target="_blank" rel="noopener noreferrer" href="https://aihacks4good.github.io/"><div><button style={{width:"50%"}} type="button" class="btn btn-info">Hackathon Website</button></div></a>
+                    </div>
                 </div>
             </div>
         </div>
