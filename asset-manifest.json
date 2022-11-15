@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4ddc60dd.css",
-    "main.js": "/static/js/main.7773847f.js",
+    "main.js": "/static/js/main.216f39e5.js",
     "static/media/emily.jpg": "/static/media/emily.f29ae3822e7bef20ba0d.jpg",
     "static/media/garg.png": "/static/media/garg.831beb41df45c8ded96b.png",
     "static/media/fizzah.png": "/static/media/fizzah.07ed02c080f780115062.png",
@@ -29,6 +29,8 @@
     "static/media/epai_mid_banner.png": "/static/media/epai_mid_banner.a8ccb6c46c8058d9a416.png",
     "static/media/epai_logo.png": "/static/media/epai_logo.e502dc0cef3c434c1abf.png",
     "static/media/paper_reading.jpg": "/static/media/paper_reading.d27cf5f3784a3b621625.jpg",
+    "static/media/AIHacks4Good_Logo.png": "/static/media/AIHacks4Good_Logo.635528102bb8f6b2041e.png",
+    "static/media/LaMDA.png": "/static/media/LaMDA.ec2ca8265aedb7afe0dc.png",
     "static/media/epai_banner.png": "/static/media/epai_banner.70f0301de77bf6d18af6.png",
     "static/media/Debiasing_model.png": "/static/media/Debiasing_model.a86e4f01788ac3567946.png",
     "static/media/hackathon_lead.png": "/static/media/hackathon_lead.e1f0572866c4640460e2.png",
@@ -40,10 +42,10 @@
     "static/media/resource_advanced.png": "/static/media/resource_advanced.002f752244c3d1301a22.png",
     "index.html": "/index.html",
     "main.4ddc60dd.css.map": "/static/css/main.4ddc60dd.css.map",
-    "main.7773847f.js.map": "/static/js/main.7773847f.js.map"
+    "main.216f39e5.js.map": "/static/js/main.216f39e5.js.map"
   },
   "entrypoints": [
     "static/css/main.4ddc60dd.css",
-    "static/js/main.7773847f.js"
+    "static/js/main.216f39e5.js"
   ]
 }
