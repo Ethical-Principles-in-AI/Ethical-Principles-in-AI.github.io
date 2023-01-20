@@ -38,7 +38,7 @@ function About() {
                   <p style={{'text-align': 'center', "padding-bottom": '40px'}}>The course Engineering and Society opened my eyes to the political and social consequences of engineering and technology. The idea of EPAI was born from wanting to create a community of students at the University of Toronto passionate about exploring ethics in AI.</p>
                 </div>
                 <div class="col">
-                  <img alt="" class="rounded" style={{'width': '100%', 'object-fit': 'cover'}} src={emily}/>
+                  <img alt="" class="rounded" style={{'width': '100%'}} src={emily}/>
                   <p></p>
                   <p style={{'text-align': 'center', 'font-weight': 'bold', 'font-size': '16pt'}}>VP Administration</p>
                   <p style={{'text-align': 'center', 'color': '#00a5b9', 'font-weight': 'bold'}}>Emily Traynor</p>
