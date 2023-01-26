@@ -9,7 +9,8 @@ import chase from "../images/pp/chase.jpg";
 import fizzah from "../images/pp/fizzah.png";
 import chris from "../images/pp/chris.jpg";
 import gary from "../images/pp/gary.jpg";
-
+import nicole from "../images/pp/nicole.png";
+import tamim from "../images/pp/tamim.jpeg";
 function About() {
   return (
     <div className="about">
@@ -48,7 +49,11 @@ function About() {
                 </div>
               </div>
               <div class="row">
-                <div class="col">
+
+
+
+
+              <div class="col">
                   <img alt="" class="rounded" style={{'width': '100%'}} src={sarina}/>
                   <p></p>
                   <p style={{'text-align': 'center', 'font-weight': 'bold', 'font-size': '16pt'}}>VP Operations (Workshop)</p>
@@ -57,6 +62,7 @@ function About() {
                   <p style={{'text-align': 'center'}}>Hi, I’m Sarina. I am a third year student going into Engineering Physics doing minors in robotics and AI. Aside from academics, I play the piano and do dragon boating. </p>
                   <p style={{'text-align': 'center', "padding-bottom": '40px'}}>While our technologies are advancing, the policies around them often lag behind, creating loop holes and ethical concerns that need to be addressed. That is why I joined EPAI, to better understand and explore the ethics in the emerging fields of AI as well as educate more people on this topic.</p>
                 </div>
+
                 <div class="col">
                   <img alt="" class="rounded" style={{'width': '100%'}} src={dhruv}/>
                   <p></p>
@@ -67,6 +73,30 @@ function About() {
                   <p style={{'text-align': 'center', "padding-bottom": '40px'}}>Recent advances in Artificial Intelligence have the potential to greatly change society, from allowing businesses to automate an unprecedented number of jobs to providing access to medical care in impoverished areas. However, with each breakthrough, it is important for engineers, scientists, and policymakers in the field to be aware of relevant ethical considerations. This is why I joined EPAI, and I hope to further explore the field over the year!</p>
                 </div>
               </div>
+
+
+              <div class="row">
+              <div class="col">
+                  <img alt="" class="rounded" style={{'width': '100%'}} src={nicole}/>
+                  <p></p>
+
+                  <p style={{'text-align': 'center', 'font-weight': 'bold', 'font-size': '16pt'}}>Differential Privacy Lead</p>
+                  <p style={{'text-align': 'center', 'color': '#00a5b9', 'font-weight': 'bold'}}>Nicole Streltsov</p>
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/nicole-streltsov/"><div class="text-center"><button style={{width:"75%"}} type="button" class="btn btn-info">LinkedIn</button></div></a>
+                  <p style={{'text-align': 'center'}}>Hi! I'm Nicole and studying Engineering Science (2T3+PEY), majoring in MI, minoring in Robotics. In my free time, I enjoy traveling and dancing. </p>
+                  <p style={{'text-align': 'center', "padding-bottom": '40px'}}>My current interests lie in software development, but I am interested to pursue other areas such as MI!  I joined EPAI to pursue those interests and gain new perspectives on the ethical implications surrounding this topic.</p>
+                </div>
+                <div class="col">
+                  <img alt="" class="rounded" style={{'width': '100%'}} src={tamim}/>
+                  <p></p>
+                  <p style={{'text-align': 'center', 'font-weight': 'bold', 'font-size': '16pt'}}>Differential Privacy Lead</p>
+                  <p style={{'text-align': 'center', 'color': '#00a5b9', 'font-weight': 'bold'}}>Tamim Hasan</p>
+                  <a target="_blank" rel="noopener noreferrer" href="https://ca.linkedin.com/in/tamim-hasan-4b6432250"><div class="text-center"><button style={{width:"75%"}} type="button" class="btn btn-info">LinkedIn</button></div></a>
+                  
+                  <p style={{'text-align': 'center', "padding-bottom": '40px'}}>Hey everyone, I’m Tamim. I’m an ECE2T4 interested in artificial intelligence and software engineering. I’m always looking to learn new things and try and understand the world around me a little more. I joined EPAI to gain a sense of the considerations that go beyond just the development of AI. With all the great developments that have taken place just this last year alone, artificial intelligence continues to be an exciting field, and EPAI is a great place to be to get more perspective.</p>
+                </div>
+              </div>
+
               <div class="row">
                 <div class="col">
                   <img alt="" class="rounded" style={{'width': '100%'}} src={anya}/>
