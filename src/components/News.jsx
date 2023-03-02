@@ -15,6 +15,17 @@ function news() {
     <p class="lead">Have you found an interesting news article, research paper, or video on AI that you think others should know about? If you would like to submit a topic for discussion or write for the newsletter, please message Adele (adelell#6804) on Discord! </p>
 
 
+    <h2>05: EPAI Events and Leadership Applications</h2>
+        <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1r60eRIeTR8UG6YdPQpMqxFPRH2cDGor2McbuSwtjgsg/edit#"><div class="text-center"><button style={{width:"100%"}} type="button" class="btn btn-info">Read Issue 05</button></div></a>
+        <ul>
+            <li>ChatGPT Seminar</li>
+            <li>23/24 President Candidacy</li>
+            <li>Deep Learning with Differential Privacy</li>
+            <li>Sentiment Analysis of Tweets</li>
+            <li>News in Ethical AI</li>
+        </ul>
+
+
         <h2>04: EPAI Events and Leadership Applications</h2>
         <a target="_blank" rel="noopener noreferrer" href="https://us5.campaign-archive.com/?e=__test_email__&u=cd0bced23d8762ad5ea829c18&id=af7d30a378"><div class="text-center"><button style={{width:"100%"}} type="button" class="btn btn-info">Read Issue 04</button></div></a>
         <ul>
