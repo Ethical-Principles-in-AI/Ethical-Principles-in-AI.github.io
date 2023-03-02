@@ -17,7 +17,7 @@ function About() {
       <div class="container">
         <div class="my-5">
         <div class="container">
-            <h1>About Us</h1>
+            <h1>Team</h1>
           </div>
           <hr/>
           <p style={{color: "#FF6B48", "text-align": 'center', "font-size": 25}}>Who we are</p>

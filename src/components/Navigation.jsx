@@ -24,7 +24,7 @@ function Navigation() {
               </li>
               <li className="nav-item">
                 <NavLink style={{"white-space": 'nowrap'}} className="nav-link" to="/about">
-                  About Us
+                  Team
                 </NavLink>
               </li>
               <li className="nav-item">

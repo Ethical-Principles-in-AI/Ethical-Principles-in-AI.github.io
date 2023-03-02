@@ -8,6 +8,7 @@ import epai_mid_banner from "../images/epai_mid_banner.png";
 import speaker_series_feb2022 from "../images/speaker_series_feb2022.png";
 import garg from "../images/garg.png";
 import LaMDA from "../images/LaMDA.png";
+import ChatGPT from "../images/ChatGPT.png";
 
 function Events() {
   return (
@@ -29,6 +30,12 @@ function Events() {
 
 
                     <p style={{color: "#FF6B48", "text-align": 'center', "font-size": 25}}>Past Events</p>
+
+
+                    <img alt="" class="rounded" src={ChatGPT} style={{'width': '60%'}}/>
+                    <p style={{'text-align': 'center', 'color': '#00a5b9', 'font-size': '20pt'}}>Discussion on ChatGPT</p>
+                    <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/presentation/d/1GDM_ZVDyw1REMaiEWh9QlRGU0wTNvefgRQbEzrQkfJc/edit#slide=id.p"><div><button style={{"margin-bottom":'30pt', width:"75%"}} type="button" class="btn btn-info">Learn More</button></div></a>
+                    
 
                     <img alt="" class="rounded" src={LaMDA} style={{'width': '60%'}}/>
                     <p style={{'text-align': 'center', 'color': '#00a5b9', 'font-size': '20pt'}}>Discussion on LaMDA</p>
