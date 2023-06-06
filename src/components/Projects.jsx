@@ -107,10 +107,13 @@ function Projects() {
                 <div class="row">
                     <div class="col text-center">
                         <img class="rounded" alt="Podcast Icon" style={{"width": "50%"}} src={privacy}/>
-                        <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1tIAaWtd3StW_cuwnCszXiMxrVMGsrUGtGE-OPlbZUV8/edit?usp=sharing"><div><button style={{width:"50%"}} type="button" class="btn btn-info">Full Project Proposal</button></div></a>
-                    </div>
+                        <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1H2zyOLYErm9dZ7LU9Tj21nIm9SsoQdVo/view?usp=sharing"><div><button style={{width:"50%"}} type="button" class="btn btn-info">Full Paper</button></div></a>
+                        <hr />
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/NicoleStrel/Deep-Learning-with-Differential-Privacy"><div><button style={{width:"50%"}} type="button" class="btn btn-info">GitHub Repository</button></div></a>
+                        </div>
+                    
                     <div class="col-7">
-                        <p class="text-center" style={{color: "#FF6B48"}}>Deep Learning with Differential Privacy</p>
+                        <p class="text-center" style={{color: "#FF6B48"}}>Past Initiatives - Deep Learning with Differential Privacy</p>
                         <p>
                         Training high quality machine learning models requires large, representative datasets, which may be crowdsourced and contain sensitive information. Even in instances when sensitive information is not explicitly used to train a model, patterns can be extracted and re-identify personal identification about an individual. Models should be designed to protect private information in these datasets. In this project, different algorithmic techniques for learning will be implemented on medical image datasets and an analysis of privacy costs within the framework of differential privacy will be completed to evaluate the merits and room for improvement of different techniques. This project deliverable will be a research paper summarizing the results found throughout the fall and winter semester.
                         </p>
